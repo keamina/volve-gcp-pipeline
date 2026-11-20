@@ -46,6 +46,9 @@ quality rules, reconciled against the official monthly report, forecast with
 
 Charts are rendered from the BigQuery marts with `python make_charts.py`.
 
+**Live dashboard (Data Studio, reading BigQuery):** https://datastudio.google.com/reporting/9aa6c665-314b-4cc8-aea0-f528c945b34f
+It runs on the free BigQuery sandbox, where tables expire after 60 days; if the dashboard is empty, the pipeline needs a re-run.
+
 ## Results (first run)
 
 - 15,634 daily rows in, 15,634 rows in staging; no duplicate well-days and no null keys.
